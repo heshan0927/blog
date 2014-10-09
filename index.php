@@ -17,7 +17,7 @@
 			background-color: #ffffff;
 		}
 		main {
-			margin:3% 0 0 0;
+			margin: 30px 0 0 0;
 		}
 		/*幻灯图*/
 		.item img {
@@ -26,7 +26,7 @@
 			overflow: hidden;
 		}
 		/*文章列表*/
-		article h2 {
+		article .title {
 			margin: 0;
 			color: #fff;
 			background-color: #a58478;	
@@ -34,6 +34,7 @@
 			border-top-right-radius: 2px;
 			line-height: 2em;
 			font-size: 180%;
+			float: none;
 		}
 		article li {
 		}
@@ -44,9 +45,17 @@
 		}
 		article .content {
 			padding: 15px;
+			margin-left: 280px;
+			float: none;
+			width: initial;
 		}
+		article .img {
+			width: 280px;
+			padding: 15px;
+		}
+
 		article .info {
-			margin:2% 0 0 7%;
+			margin: 10px 0 0 2em;
 		}
 		.digest{
 			font-size: 120%;
@@ -65,7 +74,7 @@
 			outline: 0;
 		}
 		.list {
-			margin: 5% 0;
+			margin: 30px 0;
 			padding: 0;
 			border-radius: 5px;
 			box-shadow: 0px 1px 5px #888888;
@@ -231,9 +240,9 @@ h3.aside-title {
 				while($row = mysql_fetch_array($results))
 				{
 					?>
-					<li class="list container" id="<?php echo $row['id']; ?>">
-						<h2 class="col-md-12"><?php echo $row['title']; ?></h2>
-						<div class="col-md-4">
+					<li class="list" id="<?php echo $row['id']; ?>">
+						<h2 class="col-md-12 title"><?php echo $row['title']; ?></h2>
+						<div class="col-md-4 img">
 							<div class="view">
 								<div class="view-back">
 									<span class="glyphicon glyphicon-heart">18</span>
@@ -246,7 +255,7 @@ h3.aside-title {
 
 
 
-						<div class="content col-md-8">
+						<div class="col-md-8 content">
 							<div class="article_info">
 								<span class="info glyphicon glyphicon-time"></span>
 								<span><?php echo $row['time']; ?></span>

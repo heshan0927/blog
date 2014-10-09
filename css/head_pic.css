@@ -57,9 +57,6 @@
 .view {
 	width: 250px;
 	height: 200px;
-	margin: 10px 0;
-	float: left;
-	position: relative;
 	box-shadow: 1px 2px 10px #888;
 	background: #333;
 	-webkit-perspective: 500px;
@@ -203,8 +200,4 @@
 	-moz-transition: left 0.3s ease-in-out;
 	-ms-transition: left 0.3s ease-in-out;
 	transition: left 0.3s ease-in-out;
-}
-
-.view {
-	overflow: hidden;
 }
