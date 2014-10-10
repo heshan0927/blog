@@ -55,7 +55,7 @@
 		}
 
 		article .info {
-			margin: 10px 0 0 2em;
+			margin: 15px 0 0 2em;
 		}
 		.digest{
 			font-size: 120%;
@@ -90,101 +90,107 @@
 		.aside-box {
 			border: 0;
 			box-shadow: 0px 1px 3px #888;
-/*	background-color: rgb(243, 243, 243)
-*/}
-aside ul {
-	list-style-type:none;
-	padding-left: 5%;
-}
-.aside-title {
-	background-color: #91BBDA;
-	font-size: 120%;
-	padding: 5%;
-	color: #fff;
-}
-h3.aside-title {
-	margin-bottom: 0;
-}
-.aside-body {
-	padding: 5%;
-}
-.aside-body .label {
-	line-height: 2.5em;
-	font-size: 100%;
-}
-.aside-body p {
-	font-size: 90%;
-	color: #635E5E;
-}
-.aside-body li {
-	line-height: 2em;
-	font-size: 120%;
-}
-.ec-circle{
-	max-width: 250px;
-	height: 250px;
-	-webkit-border-radius: 210px;
-	-moz-border-radius: 210px;
-	border-radius: 50%;
-	overflow: hidden;
-	text-decoration: none !important;
-	background: #FFFFFF url(images/tx.jpg) no-repeat center center;
-	-webkit-box-shadow: 
-	inset 0 0 1px 230px rgba(0,0,0,0.3),
-	inset 0 0 0 7px #d5ad94;
-	-moz-box-shadow: 
-	inset 0 0 1px 230px rgba(0,0,0,0.3),
-	inset 0 0 0 7px #d5ad94;
-	box-shadow: 
-	inset 0 0 1px 230px rgba(0,0,0,0.3),
-	inset 0 0 0 7px #d5ad94;
-	-webkit-transition: box-shadow 400ms ease-in-out;
-	-moz-transition: box-shadow 400ms ease-in-out;
-	-o-transition: box-shadow 400ms ease-in-out;
-	-ms-transition: box-shadow 400ms ease-in-out;
-	transition: box-shadow 400ms ease-in-out;
-	/*For IE < 9 so that we have some kind of effect */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	display: block;
-	outline: none;
-}
-.ec-circle-hover{
-	-webkit-box-shadow: 
-	inset 0 0 0 0 rgba(0,0,0,0.6),
-	inset 0 0 0 13px #c18167,
-	0 0 10px rgba(0,0,0,0.3);
-	-moz-box-shadow: 
-	inset 0 0 0 0 rgba(0,0,0,0.6),
-	inset 0 0 0 13px #c18167,
-	0 0 10px rgba(0,0,0,0.3);
-	box-shadow: 
-	inset 0 0 0 0 rgba(0,0,0,0.6),
-	inset 0 0 0 13px #A18378,
-	0 0 10px rgba(0,0,0,0.3);
-	/*For IE < 9 so that we have some kind of effect */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-.ec-circle p{
-	color: transparent;
-	font-size: 2em;
-	text-align: center;
-	margin-top: 70%;
-	text-shadow: 0px 0px 100px #42322C;
-	-webkit-transition: text-shadow 400ms ease-in-out;
-	-moz-transition: text-shadow 400ms ease-in-out;
-	-o-transition: text-shadow 400ms ease-in-out;
-	-ms-transition: text-shadow 400ms ease-in-out;
-	transition: text-shadow 400ms ease-in-out;
-}
-.ec-circle-hover p{
-	text-shadow: 0px 0px 1px red;
-}
+		}
+		aside ul {
+			list-style-type:none;
+			padding-left: 5%;
+		}
+		.aside-title {
+			background-color: #91BBDA;
+			font-size: 120%;
+			padding: 5%;
+			color: #fff;
+		}
+		h3.aside-title {
+			margin-bottom: 0;
+		}
+		.aside-body {
+			padding: 5%;
+		}
+		.aside-body .label {
+			line-height: 2.5em;
+			font-size: 100%;
+		}
+		.aside-body p {
+			font-size: 90%;
+			color: #635E5E;
+		}
+		.aside-body li {
+			line-height: 2em;
+			font-size: 120%;
+		}
+		.ec-circle{
+			max-width: 250px;
+			height: 250px;
+			-webkit-border-radius: 210px;
+			-moz-border-radius: 210px;
+			border-radius: 50%;
+			overflow: hidden;
+			text-decoration: none !important;
+			background: #FFFFFF url(images/tx.jpg) no-repeat center center;
+			-webkit-box-shadow: 
+			inset 0 0 1px 230px rgba(0,0,0,0.3),
+			inset 0 0 0 7px #d5ad94;
+			-moz-box-shadow: 
+			inset 0 0 1px 230px rgba(0,0,0,0.3),
+			inset 0 0 0 7px #d5ad94;
+			box-shadow: 
+			inset 0 0 1px 230px rgba(0,0,0,0.3),
+			inset 0 0 0 7px #d5ad94;
+			-webkit-transition: box-shadow 400ms ease-in-out;
+			-moz-transition: box-shadow 400ms ease-in-out;
+			-o-transition: box-shadow 400ms ease-in-out;
+			-ms-transition: box-shadow 400ms ease-in-out;
+			transition: box-shadow 400ms ease-in-out;
+			/*For IE < 9 so that we have some kind of effect */
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+			display: block;
+			outline: none;
+		}
+		.ec-circle-hover{
+			-webkit-box-shadow: 
+			inset 0 0 0 0 rgba(0,0,0,0.6),
+			inset 0 0 0 13px #c18167,
+			0 0 10px rgba(0,0,0,0.3);
+			-moz-box-shadow: 
+			inset 0 0 0 0 rgba(0,0,0,0.6),
+			inset 0 0 0 13px #c18167,
+			0 0 10px rgba(0,0,0,0.3);
+			box-shadow: 
+			inset 0 0 0 0 rgba(0,0,0,0.6),
+			inset 0 0 0 13px #A18378,
+			0 0 10px rgba(0,0,0,0.3);
+			/*For IE < 9 so that we have some kind of effect */
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		}
+		.ec-circle p{
+			color: transparent;
+			font-size: 2em;
+			text-align: center;
+			margin-top: 70%;
+			text-shadow: 0px 0px 100px #42322C;
+			-webkit-transition: text-shadow 400ms ease-in-out;
+			-moz-transition: text-shadow 400ms ease-in-out;
+			-o-transition: text-shadow 400ms ease-in-out;
+			-ms-transition: text-shadow 400ms ease-in-out;
+			transition: text-shadow 400ms ease-in-out;
+		}
+		.ec-circle-hover p{
+			text-shadow: 0px 0px 1px red;
+		}
 
-/* go to top*/
-.go-top {position: fixed; top:90%; right:7%;}
-.go-top a{ display:block; cursor:pointer; outline:none;}
-
-</style>
+		/* go to top*/
+		.go-top {
+			position: fixed;
+			top: 90%;
+			right: 7%;
+		}
+		.go-top a {
+			display: block;
+			cursor: pointer;
+			outline: none;
+		}
+	</style>
 </head>
 <body>
 	<header id="header">
@@ -240,9 +246,9 @@ h3.aside-title {
 				while($row = mysql_fetch_array($results))
 				{
 					?>
-					<li class="list" id="<?php echo $row['id']; ?>">
+					<li class="list row" id="<?php echo $row['id']; ?>">
 						<h2 class="col-md-12 title"><?php echo $row['title']; ?></h2>
-						<div class="col-md-4 img">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
 							<div class="view">
 								<div class="view-back">
 									<span class="glyphicon glyphicon-heart">18</span>
@@ -255,7 +261,7 @@ h3.aside-title {
 
 
 
-						<div class="col-md-8 content">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
 							<div class="article_info">
 								<span class="info glyphicon glyphicon-time"></span>
 								<span><?php echo $row['time']; ?></span>
@@ -266,15 +272,14 @@ h3.aside-title {
 							</div>
 							<div class="digest">
 								<p><?php echo substr($row['digest'], 0, 448); ?></p>
-								<p><a href="/~cherry/post.php?id=<?php echo $row['id']?>" target="_blank">More &gt;&gt;</a></p>
+								<p><a href="post.php?id=<?php echo $row['id']?>" target="_blank">More &gt;&gt;</a></p>
 							</div>
 						</div>
-						<div class="clearfix"></div></li>
+					</li>
 
-						<?php    
+					<?php    
 					}
 					mysql_close($db);
-
 					?>
 				</article>
 			</main>
@@ -414,4 +419,4 @@ h3.aside-title {
 		}
 		$("#header").load("nav.html", "", initPage); 
 	</script>
-</html>
+	</html>

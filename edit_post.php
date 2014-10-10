@@ -42,7 +42,6 @@
 		}
 
 		#content {
-			/*width: 93%; */
 			height: 20em;
 			font-size: 100%;
 			border: 2px solid #f5bca8;

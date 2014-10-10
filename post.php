@@ -16,6 +16,7 @@ while($row = mysql_fetch_array($results))
 	?>
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php echo $row['title']; ?></title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/common.css">
@@ -40,7 +41,6 @@ while($row = mysql_fetch_array($results))
 				text-align: center;
 				margin: 2% 2% 0 2%;
 				width: 40%;
-				font-size: 250%;
 				line-height: 2.5em;
 				font-weight: 300;
 				color: #A55040;
@@ -151,8 +151,7 @@ while($row = mysql_fetch_array($results))
 			$result = mysql_query( $sql ); 
 			if( mysql_num_rows( $result ) ) { 
 				$previous_page = mysql_fetch_array( $result ); 
-				echo "<a class='page_up' 
-				href='/~cherry/post.php?id=${previous_page['id']}' target='_blank'>
+				echo "<a class='page_up' href='post.php?id=${previous_page['id']}' target='_blank'>
 				<span class='glyphicon glyphicon-arrow-left'></span>上一篇</a>";
 			} 
 			else { 
@@ -162,8 +161,7 @@ while($row = mysql_fetch_array($results))
 			$result = mysql_query( $sql ); 
 			if( mysql_num_rows( $result ) ) { 
 				$next_page = mysql_fetch_array( $result );
-				echo "<a class='page_down' 
-				href='/~cherry/post.php?id=${next_page['id']}' target='_blank'>下一篇
+				echo "<a class='page_down' href='post.php?id=${next_page['id']}' target='_blank'>下一篇
 				<span class=' glyphicon glyphicon-arrow-right'></span></a>";
 			} 
 			else { 
